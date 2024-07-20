@@ -2,26 +2,16 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    # Rust
-    cargo
-    rustc
-
-    # Gleam
-    gleam
-
     # Elixir
     elixir
 
-    # FSharp
-    dotnet-sdk
-    fsautocomplete
-    fantomas
+    # Haskell
+    ghc
+    stack
 
-    # Go
-    go
-
-    # Kotlin
-    kotlin-native
+    # Rust
+    cargo
+    rustc
 
     # Tools
     ripgrep
